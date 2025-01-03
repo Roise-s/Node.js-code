@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
             break;
     }
 
-    // send an html file
+    // send an html files
 
     fs.readFile(path, (err, data) => {
         if (err) {
